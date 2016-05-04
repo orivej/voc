@@ -77,17 +77,17 @@ Let's write hello world file:
 
 >$ cat hey.Mod
 
-<code>
-MODULE hey;  
+```Modula-2
+MODULE hey;
 
-  IMPORT Console;  
+  IMPORT Console;
 
-BEGIN  
+BEGIN
 
-  Console.String("hey there"); Console.Ln  
+  Console.String("hey there"); Console.Ln
 
-END hey.  
-</code>
+END hey.
+```
 
 >voc -M hey.Mod
 
